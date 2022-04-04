@@ -1,0 +1,12 @@
+p {
+    color: darkgreen;
+    font-family: Verdana;
+    font-size: 15px;
+    background-color: white;
+   
+}
+.tipo1{color: grey; font-family: 'Times New Roman';}
+.tipo2{color:blueviolet; font-style: oblique;}
+h1 {color:black}
+h3 {color:rgb(35, 75, 206)}
+a:hover {color:tomato}
