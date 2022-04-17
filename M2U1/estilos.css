@@ -1,0 +1,32 @@
+header{
+
+    background: linear-gradient(to bottom,rgb(30, 30, 136), white);
+}
+
+nav{
+    background: linear-gradient(to right, rgb(81, 236, 81), white);
+}
+
+.bienvenidos{
+    font-family: 'Beau Rivage', cursive;
+    font-size: xx-large;
+    box-shadow: 2px 5px 5px 2px;
+}
+.testimonios{
+    border-radius: 5px;
+}
+p{
+    column-count: 9;
+    column-gap: 10px;
+}
+
+div{
+
+    font-family: 'Beau Rivage', cursive;
+    font-size: xx-large;
+    
+}
+
+
+
+

@@ -1,0 +1,93 @@
+/*
+    font-family: 'Inter', sans-serif;
+    font-family: 'Square Peg', cursive;
+*/
+
+h2 {
+    color: blue;
+    font-family: 'Inter', sans-serif;
+    font-size: 120px;
+    margin: 0px;
+}
+
+.grande {
+    color: red;
+    font-size:  100px;
+
+}
+
+.caja {
+    width: 300px;
+    height: 300px;
+    /*background: yellow;*/
+    background: #00ff5e;
+    background: linear-gradient(61deg, #00ff5e 0%, #108110 80%);
+    background: -webkit-linear-gradient(61deg, #00ff5e 0%, #108110 80%);
+    background: -moz-linear-gradient(61deg, #00ff5e 0%, #108110 80%);
+    margin: 100px;
+    color: aliceblue;
+    font-size: x-large;
+    font-family: 'Square Peg', cursive;
+    padding: 20px;
+    box-sizing: border-box;
+    /*propiedad para ajustar la caja y que no crezca cuando se agregan padding y otras propiedades*/
+    /*border-radius: 20px;propiedad redondendar la caja*/
+    border-radius: 20px 0 0 10px;
+    /*propiedad redondendar la caja y jugar con bordes*/
+    box-shadow: -20px -25px 40px black;
+    /*eje x, eje y, desenfoque, color*/
+    border: 1px solid white;
+}
+
+.caja2 {
+    width: 300px;
+    height: 300px;
+    /*background: yellow;*/
+    color: aliceblue;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    /*background: yellow;*/
+    background: #00daff;
+    background: linear-gradient(16deg, #00daff 0%, #104e81 80%);
+    background: -webkit-linear-gradient(16deg, #00daff 0%, #104e81 80%);
+    background: -moz-linear-gradient(16deg, #00daff 0%, #104e81 80%);
+    margin: 100px;
+    color: aliceblue;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 0px 200px 200px 200px;
+    -webkit-border-radius: 0px 200px 200px 200px;
+    -moz-border-radius: 0px 200px 200px 200px;
+    border: 4px solid #ff6550;
+}
+
+.caja3 {
+
+    width: 900px;
+    height: 300px;
+    /*background: yellow;*/
+    background: rgba(255, 99, 0, 0.4);
+    background: linear-gradient(256deg, rgba(255, 99, 0, 0.4) 0%, #00ffc9 60%);
+    background: -webkit-linear-gradient(256deg, rgba(255, 99, 0, 0.4) 0%, #00ffc9 60%);
+    background: -moz-linear-gradient(256deg, rgba(255, 99, 0, 0.4) 0%, #00ffc9 60%);
+    margin: 100px;
+    color: blue;
+    padding: 20px;
+    box-sizing: border-box;
+    /*propiedad para ajustar la caja y que no crezca cuando se agregan padding y otras propiedades*/
+    /*border-radius: 20px;propiedad redondendar la caja*/
+    border-radius: 20px 0 0 10px;
+    /*propiedad redondendar la caja y jugar con bordes*/
+    box-shadow: 3px 13px 28px 4px rgba(255, 234, 34, 0.48);
+    /*eje x, eje y, desenfoque, color*/
+    border: 1px solid white;
+    column-count: 3;
+    column-gap: 50px;
+    column-rule: 1px solid red;
+
+}
+
+.caja3 p {
+    margin: 0px;
+}
