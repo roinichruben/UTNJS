@@ -1,0 +1,21 @@
+.persooa:first-child{
+    margin-left: 0;
+}
+
+.servicio:nth-child(even) .info{
+    float:left
+}
+.servicio:nth-child(even) figure{
+float: right;
+margin: 0 0 0 lem;
+}
+.servicio:nth-child(odd) figure{
+    float: left;
+    margin: 0 lem 0 0;
+}
+.servicio:nth-child(odd) .info{
+    float: right;
+}
+.galeria .foto:nth-child(5n+1){
+    border-color: red;
+}
