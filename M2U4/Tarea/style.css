@@ -1,0 +1,15 @@
+.color1 {
+    background-color: rgba(190, 238, 193, 0.913)
+}
+
+.borde1 {
+    
+    border-bottom: 5px double #ff6550;
+}
+.borde2{
+    
+    border-bottom: 5px double #ecff50;
+}
+.borde3{
+    border-left: 5px double #00d662;
+}
