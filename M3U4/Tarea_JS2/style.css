@@ -1,0 +1,16 @@
+.contenedor{
+    display: flex;
+}
+.boton{
+    height: 200px;
+    width: 200px; 
+}
+.rojo{
+    background-color: red;
+}
+.verde{
+    background-color: green;
+}
+.azul{
+    background-color: blue;
+}
