@@ -1,19 +1,19 @@
 /*font-family: 'Nunito', sans-serif;*/
 body {
     font-family: 'Nunito', sans-serif;
-    font-size: 1rem;
-    line-height: 1.25rem;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 header {
     background-color: #1F2C81;
-    padding: 0.6rem 0;
+    padding: 10px 0;
 }
 
 
 nav {
     background-color: #00A94A;
-    margin-bottom: 1.25rem;
+    margin-bottom: 20px;
 }
 
 nav ul {
@@ -30,7 +30,7 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
-    padding: 0.2rem 0.4rem;
+    padding: 3px 6px;
     display: block;
     text-align: center;
 }
@@ -48,12 +48,12 @@ footer {
     clear: both;
     color: #333;
     text-align: center;
-    padding: 0rem 0;
-    margin-top: 0.9rem;
+    padding: 0px 0;
+    margin-top: 15px;
 }
 
 .holder {
-    max-width: 60rem;
+    max-width: 960px;
     margin: auto;
 }
 
@@ -65,13 +65,13 @@ h2 {
 /*Home*/
 .principal {
     width: 85%;
-    padding-right: 1.25rem;
+    padding-right: 20px;
     box-sizing: border-box;
 
 }
 
 .principal p {
-    font-size: 1.25rem;
+    font-size: 20px;
 }
 
 
@@ -80,12 +80,12 @@ h2 {
 /*Inicio  Servicios*/
 
 .servicio {
-    border: 0.1rem solid #ccc;
-    border-radius: 0.6rem;
-    padding: 1rem;
-    margin: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px;
     display: flex;
-    gap: 2rem;
+    gap: 32px;
     align-items: center;
 }
 
@@ -93,18 +93,18 @@ h2 {
     color: #06225e;
     font-weight: 500;
     font-style: italic;
-    border-bottom: 0.1rem solid #2e64a1;
-    padding-bottom: 0.6rem;
+    border-bottom: 1px solid #2e64a1;
+    padding-bottom: 10px;
 }
 
 .servicio .info p {
-    font-size: 0.82rem;
+    font-size: 13px;
 }
 
 .servicio img {
-    border-radius: 0.8rem;
+    border-radius: 13px;
     display: block;
-    max-width: 14rem;
+    max-width: 225px;
 }
 
 .servicio:nth-child(even) {
@@ -122,10 +122,10 @@ h2 {
 
 .galeria img {
     width: 18%;
-    border: 0.1rem solid #ddd;
-    padding: 0.3rem;
+    border: 1px solid #ddd;
+    padding: 0.3em;
     box-sizing: border-box;
-    margin-bottom: 1.25rem;
+    margin-bottom: 20px;
     margin-right: 2%;
 
 }
@@ -151,7 +151,7 @@ h2 {
 /*Inicio  contacto*/
 .contacto {
     display: flex;
-    gap: 1.5rem;
+    gap: 24px;
 }
 
 .contacto div {
@@ -159,11 +159,11 @@ h2 {
 }
 
 .datos p {
-    font-size: 0.9rem;
+    font-size: 14px;
 }
 
 .datos ul li {
-    font-size: 0.8rem;
+    font-size: 13px;
 }
 
 .formulario p {
@@ -171,17 +171,17 @@ h2 {
 }
 
 .formulario p label {
-    min-width: 5rem;
+    min-width: 80px;
 }
 
 .formulario p input,
 .formulario p textarea {
     width: 100%;
     background: #ddd;
-    border-radius: 0.3rem;
-    border: 0.1rem solid #999;
-    font-size: 0.8rem;
-    padding: 0.35rem 0.6rem;
+    border-radius: 5px;
+    border: 1px solid #999;
+    font-size: 14px;
+    padding: 6px 10px;
 }
 
 .formulario p:nth-child(4) {
@@ -190,15 +190,15 @@ h2 {
 
 .formulario textarea {
     resize: none;
-    height: 9rem;
+    height: 150px;
 }
 
 .formulario input[type="submit"] {
     background-color: #00A94A;
-    box-shadow: 0 0 0.6rem rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     color: white;
-    font-size: 1rem;
-    padding: 0.3rem 1.25rem;
+    font-size: 16px;
+    padding: 6px 20px;
     width: auto;
     position: relative;
     left: 5rem;
@@ -211,23 +211,3 @@ h2 {
 }
 
 /*Fin contacto*/
-
-
-@media screen and (max-width: 640px) {
-    html{
-      font-size: 1.25vmin;
-    }
-    
-  }
-  
-  @media screen and (min-width: 640px) and (max-width: 1280px) {
-    html{
-      font-size: 1.5vmin;
-    }
-  }
-  @media screen and (min-width: 1280px) {
-    html{
-      font-size: 1.75vmin;
-    }
-    
-  }
